@@ -1,4 +1,5 @@
 <?php
 
-$heading = 'Class';
-require 'class.php';
+view("contact.view.php", [
+    'heading' => 'Contact Us',
+]);
