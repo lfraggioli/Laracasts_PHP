@@ -1,11 +1,10 @@
 <?php
 
+use Core\App;
 use Core\Database; // Add this import statement
 
-$config = require base_path('config.php');
+$db = App::resolve(Database::class); // Replace this line
 
-
-$db = new Database($config['database']);
 
 
 $heading = 'My Notes';
