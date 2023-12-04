@@ -1,0 +1,21 @@
+{
+    "name": "fragg_lucas/laracasts-course",
+    "description": "php fundamentals",
+    "require": {
+        "illuminate/collections": "^10.34"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.27"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
